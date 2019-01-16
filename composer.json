@@ -1,7 +1,7 @@
 {
     "name": "ollakalla/backend",
     "description": "Backend package for Laravel Framework",
-    "type": "composer-plugin",
+    "type": "library",
     "require": {
         "cartalyst/sentinel": "^2.0",
         "laravelcollective/html": "^5.6",
@@ -14,7 +14,7 @@
             "email": "ahmed_bermawy@yahoo.com"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "extra": {
         "laravel": {
             "providers": [
