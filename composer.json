@@ -14,14 +14,7 @@
             "email": "ahmed_bermawy@yahoo.com"
         }
     ],
-    "minimum-stability": "stable",
-    "extra": {
-        "laravel": {
-            "providers": [
-                "Ollakalla\\Backend\\BackendServiceProvider"
-            ]
-        }
-    },
+    "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
             "Ollakalla\\Backend\\": "src"
