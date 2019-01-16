@@ -23,10 +23,10 @@ class BackendServiceProvider extends ServiceProvider
             __DIR__.'/Commands' => app_path('Console/Commands'),
         ]);
         
-        \SSH::run(array(
-            'cd '. public_path(),
-            'bower install admin-lte#2.4.0 fontawesome fancybox ionicons eonasdan-bootstrap-datetimepicker jquery-migrate selectize',
-        ));
+//        \SSH::run(array(
+//            'cd '. public_path(),
+//            'bower install admin-lte#2.4.0 fontawesome fancybox ionicons eonasdan-bootstrap-datetimepicker jquery-migrate selectize',
+//        ));
     }
 
     /**
